@@ -6,7 +6,7 @@ import json
 import subprocess
 
  
-TOKEN = "5628937070:AAF62VD5pYkVrB6IGrv3UGJc4QvhR_nhdfc"
+TOKEN = "*"
 
 
 app = Flask(__name__)
