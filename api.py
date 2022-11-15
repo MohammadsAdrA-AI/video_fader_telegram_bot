@@ -23,7 +23,7 @@ def audio_extractor(update: Update, context: CallbackContext) -> None:
     file_id = update.message.video.file_id
     file = context.bot.getFile(file_id)
     input_path = f'./temp/{file_id}.{input_ext}'
-    output_path = f'./result/voice_and_video_changed.mp4'
+    output_path = f'./result/blurred_video.mp4'
     print('here')
     file.download(input_path)
     # Extract audio
